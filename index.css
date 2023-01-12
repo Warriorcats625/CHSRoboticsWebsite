@@ -1,43 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 body {
     margin: 0;
-}
-
-/* Header */
-#header {
-    text-align: center;
-
-}
-
-hr {
-    height: 1px;
-    opacity: 0.5;
-}
-
-#nav {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#links {
-    list-style-type: none;
-    display: inline-flex;
-    padding: 0;
-}
-
-.link {
-    padding: 0 20px 0 20px;
-}
-
-.link a {
-    text-decoration: none;
-    color: black;
-}
-
-.link a:hover {
-    color: black;
-    text-decoration: underline;
 }
 
 /* Main Content */
