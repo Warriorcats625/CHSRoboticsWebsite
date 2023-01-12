@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* Header */
 #header {
     text-align: center;
+
+}
+
+hr {
+    height: 1px;
+    opacity: 0.5;
 }
 
 #nav {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #links {
@@ -19,10 +33,75 @@
 .link a {
     text-decoration: none;
     color: black;
-    transition: all 2.5s ease-in-out;
 }
 
 .link a:hover {
     color: black;
     text-decoration: underline;
+}
+
+/* Main Content */
+#about-us {
+    background-color: rgba(255, 0, 0, 0.754);
+    padding: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-us h1 {
+    font-size: 35px;
+    width: 600px;
+}
+
+#about-us p {
+    width: 600px;
+}
+
+#about-us img {
+    width: 400px;
+    float: right;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+#want-to-join {
+    background-color: rgba(66, 47, 235, 0.711);
+    padding: 20px;
+    left: 0;
+    right: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#want-to-join div {
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#want-to-join h1 {
+    font-size: 35px;
+    width: 600px;
+}
+
+#want-to-join p {
+    width: 600px;
+}
+
+#sign-up {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+}
+
+#sign-up:disabled {
+    cursor: not-allowed;
 }
