@@ -1,5 +1,6 @@
 #intro {
     padding: 30px;
+    padding-top: 0;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     display: flex;
@@ -54,4 +55,22 @@
     color: gray;
     font-size: 17px !important;
     margin-top: -20px;
+}
+
+@media only screen and (max-width: 375px) {
+    #cards {
+        justify-items: center;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card div {
+        align-items: center;
+    }
+
+    .card img {
+        margin-right: 0;
+    }
 }
