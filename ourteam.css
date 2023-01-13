@@ -5,14 +5,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #intro div {
     width: 600px;
 }
 
-#intro h1 {
-    font-size: 30px;
+@media only screen and (max-width: 600px) {
+    #intro div {
+        width: calc(100% - 20px);
+    }
 }
 
 #team {
@@ -22,14 +25,9 @@
     
 }
 
-#team h1 {
-    font-size: 35px;
-}
-
 #cards {
     display: inline-grid;
     justify-items: start;
-    margin-left: 100px;
 }
 
 .card {
@@ -44,4 +42,16 @@
 
 .card p {
     font-size: 20px;
+}
+
+.card div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.role {
+    color: gray;
+    font-size: 17px !important;
+    margin-top: -20px;
 }

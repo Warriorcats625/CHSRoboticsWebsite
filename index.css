@@ -67,3 +67,35 @@ body {
 #sign-up:disabled {
     cursor: not-allowed;
 }
+
+@media only screen and (max-width: 1120px) {
+    #about-us h1 {
+        font-size: 35px;
+        width: calc(100% - 20px);
+    }
+    
+    #about-us p {
+        width: calc(100% - 20px);
+    }
+
+    #about-us img {
+        width: calc(100% - 5px);
+    }
+
+    #about-us {
+        flex-direction: column;
+    }
+
+    #want-to-join div {
+        flex-direction: column;
+    }
+
+    #want-to-join h1 {
+        font-size: 35px;
+        width: calc(100% - 5px);
+    }
+    
+    #want-to-join p {
+        width: calc(100% - 5px);
+    }
+}
