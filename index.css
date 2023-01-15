@@ -25,6 +25,11 @@ body {
 #about-us div a {
     color: white;
     text-decoration: none;
+    width: 250px;
+}
+
+#about-us div a p {
+    width: 40px;
 }
 
 #about-us div a, #about-us div a p {
@@ -33,10 +38,10 @@ body {
 }
 
 #about-us div a:hover p {
-    transform: translateX(2%);
+    transform: translateX(20%);
 }
 
-@media only screen and (max-width: 1330px) {
+/* @media only screen and (max-width: 1330px) {
     #about-us div a p {
         display: none;
     }
@@ -48,7 +53,7 @@ body {
     #about-us div a:hover {
         text-decoration: none;
     }
-}
+} */
 
 #about-us img {
     width: 400px;
