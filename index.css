@@ -22,6 +22,34 @@ body {
     width: 600px;
 }
 
+#about-us div a {
+    color: white;
+    text-decoration: none;
+}
+
+#about-us div a, #about-us div a p {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+}
+
+#about-us div a:hover p {
+    transform: translateX(2%);
+}
+
+@media only screen and (max-width: 1330px) {
+    #about-us div a p {
+        display: none;
+    }
+
+    #about-us div a {
+        text-decoration: underline;
+    }
+
+    #about-us div a:hover {
+        text-decoration: none;
+    }
+}
+
 #about-us img {
     width: 400px;
     float: right;
