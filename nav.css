@@ -12,7 +12,6 @@ hr {
 }
 
 #nav {
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -21,11 +20,14 @@ hr {
     display: inline-flex;
     padding: 0;
     white-space: nowrap;
+    text-align: right;
+
 }
 
 #logotext {
     width: 100px;
     display: inline-block;
+    text-align: left;
 
 }
 
