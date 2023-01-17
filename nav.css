@@ -15,20 +15,21 @@ hr {
     font-family: 'Montserrat', sans-serif;
 }
 
+#logotext {
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+}
+
 #links {
     list-style-type: none;
     display: inline-flex;
     padding: 0;
     white-space: nowrap;
-    text-align: right;
-
-}
-
-#logotext {
-    width: 100px;
-    display: inline-block;
-    text-align: left;
-
+    float: right;
+    justify-content: center;
+    margin-top: 25px;
+    margin-right: 20px;
 }
 
 .link {
@@ -44,4 +45,23 @@ hr {
 .link a:hover {
     color: black;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 922px) {
+    #links {
+        margin-top: 0;
+        margin-left: 0;
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    #nav {
+        text-align: center;
+    }
+
+    #logotext {
+        padding: 0;
+        text-align: center;
+    }
 }
