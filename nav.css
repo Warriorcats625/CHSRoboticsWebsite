@@ -20,14 +20,18 @@ hr {
     list-style-type: none;
     display: inline-flex;
     padding: 0;
+    white-space: nowrap;
 }
 
 #logotext {
     width: 100px;
+    display: inline-block;
+
 }
 
 .link {
     padding: 0 20px 0 20px;
+    display: inline-block;
 }
 
 .link a {
