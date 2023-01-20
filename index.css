@@ -4,7 +4,7 @@ body {
 
 /* Main Content */
 #about-us {
-    background-color: rgb(1, 22, 30);
+    background-color: rgba(255, 0, 0, 0.754);
     padding: 30px;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -63,7 +63,7 @@ body {
 }
 
 #want-to-join {
-    background-color: #030001;
+    background-color: rgba(66, 47, 235, 0.711);
     padding: 20px;
     left: 0;
     right: 0;
