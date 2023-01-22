@@ -1,7 +1,3 @@
-body {
-    margin: 0;
-}
-
 /* Main Content */
 #about-us {
     background-color: rgba(255, 0, 0, 0.754);
@@ -11,6 +7,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 8px;
 }
 
 #about-us h1 {
@@ -69,6 +67,7 @@ body {
     right: 0;
     color: white;
     font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
 }
 
 #want-to-join div {
@@ -113,7 +112,7 @@ body {
     }
 
     #about-us img {
-        width: calc(100% - 5px);
+        width: calc(100% - 10px);
     }
 
     #about-us {
