@@ -59,7 +59,7 @@ body {
     width: 400px;
     float: right;
     margin-left: 50px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 #want-to-join {
@@ -90,11 +90,12 @@ body {
 }
 
 #sign-up {
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 15px;
+    padding: 13px;
+    border-radius: 15px;
+    font-size: 17px;
     outline: 0;
     border: 0;
+    cursor: pointer;
 }
 
 #sign-up:disabled {
